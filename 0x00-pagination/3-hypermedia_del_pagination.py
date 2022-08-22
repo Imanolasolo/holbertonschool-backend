@@ -40,25 +40,18 @@ class Server:
         return self.__indexed_dataset
 
     def get_hyper_index(self, index: int = None, page_size: int = 10) -> Dict:
-        """return a dictionary with stats"""
-        limit_index = len(self.__indexed_dataset) - 1
-        assert index <= limit_index and index >= 0
-
-        keys = list(self.__indexed_dataset.keys())
-
-        start_slice = index
-        while start_slice <= limit_index:
-            if start_slice in keys:
-                start_slice = keys.index(start_slice)
-                break
-            else:
-                start_slice += 1
-
-        final_slice = start_slice + page_size
-        keys_page = keys[index: final_slice]
-        data = [self.__indexed_dataset[i] for i in keys_page]
-        hyper_index = {
-            "index": index, "next_index": keys[final_slice],
-            "page_size": page_size, "data": data
+        """
+        Method with two integer arguments: index with a None default value and
+        page_size with default value of 10
+        """
+        sorted_ds = self.indexed_dataset()
+        assert isinstance(index, int)
+        assert index >= 0
+        assert index < len(self.__indexed_dataset)
+        data = [sorted_ds.get(i) for i in range(index, index + page_size)]
+        return {
+            'index': index,
+            'next_index': index + 1,
+            'page_size': len(data),
+            'data': data
         }
-        return hyper_index
