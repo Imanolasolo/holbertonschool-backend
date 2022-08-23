@@ -144,7 +144,7 @@ Create a class `BasicCache` that inherits from `BaseCaching` and is a caching sy
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x01-caching`
-*   File: [0-basic_cache.py]()
+*   File: [0-basic_cache.py](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x01-caching/0-basic_cache.py)
 
 ### 1\. FIFO caching
 
@@ -210,7 +210,7 @@ Create a class `FIFOCache` that inherits from `BaseCaching` and is a caching sys
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x01-caching`
-*   File: [1-fifo_cache.py]()
+*   File: [1-fifo_cache.py](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x01-caching/1-fifo_cache.py)
 
 ### 2\. LIFO Caching
 
@@ -284,7 +284,7 @@ Create a class `LIFOCache` that inherits from `BaseCaching` and is a caching sys
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x01-caching`
-*   File: [2-lifo_cache.py]()
+*   File: [2-lifo_cache.py](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x01-caching/2-lifo_cache.py)
 
 ### 3\. LRU Caching
 
@@ -398,7 +398,7 @@ Create a class `LRUCache` that inherits from `BaseCaching` and is a caching syst
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x01-caching`
-*   File: [3-lru_cache.py]()
+*   File: [3-lru_cache.py](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x01-caching/3-lru_cache.py)
 
 ### 4\. MRU Caching
 
@@ -512,7 +512,7 @@ Create a class `MRUCache` that inherits from `BaseCaching` and is a caching syst
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x01-caching`
-*   File: [4-mru_cache.py]()
+*   File: [4-mru_cache.py](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x01-caching/4-mru_cache.py)
 
 ### 5\. LFU Caching
 
@@ -655,7 +655,7 @@ Create a class `LFUCache` that inherits from `BaseCaching` and is a caching syst
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x01-caching`
-*   File: [100-lfu_cache.py]()
+*   File: [100-lfu_cache.py](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x01-caching/100-lfu_cache.py)
 
 ## Credits
 
