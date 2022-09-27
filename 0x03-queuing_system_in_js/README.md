@@ -131,7 +131,7 @@ Requirements:
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x03-queuing_system_in_js`
-*   File: [README.md](), [dump.rdb]()
+*   File: [README.md](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x03-queuing_system_in_js/README.md), [dump.rdb](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x03-queuing_system_in_js/dump.rdb)
 
 ### 1\. Node Redis Client
 
@@ -189,7 +189,7 @@ Using Babel and ES6, write a script named `0-redis_client.js`. It should connect
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x03-queuing_system_in_js`
-*   File: [0-redis_client.js]()
+*   File: [0-redis_client.js](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x03-queuing_system_in_js/0-redis_client.js)
 
 ### 2\. Node Redis client and basic operations
 
@@ -238,7 +238,7 @@ At the end of the file, call:
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x03-queuing_system_in_js`
-*   File: [1-redis_op.js]()
+*   File: [1-redis_op.js](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x03-queuing_system_in_js/1-redis_op.js)
 
 ### 3\. Node Redis client and async operations
 
@@ -271,7 +271,7 @@ Same result as `1-redis_op.js`
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x03-queuing_system_in_js`
-*   File: [2-redis_op_async.js]()
+*   File: [2-redis_op_async.js](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x03-queuing_system_in_js/2-redis_op_async.js)
 
 ### 4\. Node Redis client and advanced operations
 
@@ -332,7 +332,7 @@ Using `hgetall`, display the object stored in Redis. It should return the follow
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x03-queuing_system_in_js`
-*   File: [4-redis_advanced_op.js]()
+*   File: [4-redis_advanced_op.js](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x03-queuing_system_in_js/4-redis_advanced_op.js)
 
 ### 5\. Node Redis client publisher and subscriber
 
@@ -419,7 +419,7 @@ Now you have a basic Redis-based queuing system where you have a process to gene
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x03-queuing_system_in_js`
-*   File: [5-subscriber.js](), [5-publisher.js]()
+*   File: [5-subscriber.js](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x03-queuing_system_in_js/5-subscriber.js), [5-publisher.js](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x03-queuing_system_in_js/5-publisher.js)
 
 ### 6\. Create the Job creator
 
@@ -461,7 +461,7 @@ If you execute multiple time this file, you will see the `JOB ID` increasing - i
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x03-queuing_system_in_js`
-*   File: [6-job_creator.js]()
+*   File: [6-job_creator.js](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x03-queuing_system_in_js/6-job_creator.js)
 
 ### 7\. Create the Job processor
 
@@ -523,7 +523,7 @@ BOOM! same as `5-subscriber.js` and `5-publisher.js` but with a module to manage
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x03-queuing_system_in_js`
-*   File: [6-job_processor.js]()
+*   File: [6-job_processor.js](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x03-queuing_system_in_js/6-job_processor.js)
 
 ### 8\. Track progress and errors with Kue: Create the Job creator
 
@@ -619,7 +619,7 @@ After this array created:
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x03-queuing_system_in_js`
-*   File: [7-job_creator.js]()
+*   File: [7-job_creator.js](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x03-queuing_system_in_js/7-job_creator.js)
 
 ### 9\. Track progress and errors with Kue: Create the Job processor
 
@@ -708,7 +708,7 @@ Create a queue with `Kue` that will proceed job of the queue `push_notification_
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x03-queuing_system_in_js`
-*   File: [7-job_processor.js]()
+*   File: [7-job_processor.js](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x03-queuing_system_in_js/7-job_processor.js)
 
 ### 10\. Writing the job creation function
 
@@ -756,7 +756,7 @@ In a file named `8-job.js`, create a function named `createPushNotificationsJobs
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x03-queuing_system_in_js`
-*   File: [8-job.js]()
+*   File: [8-job.js](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x03-queuing_system_in_js/8-job.js)
 
 ### 11\. Writing the test for job creation
 
@@ -795,7 +795,7 @@ Now that you created a job creator, let’s add tests:
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x03-queuing_system_in_js`
-*   File: [8-job.test.js]()
+*   File: [8-job.test.js](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x03-queuing_system_in_js/8-job.test.js)
 
 ### 12\. In stock?
 
@@ -888,7 +888,7 @@ Create the route `GET /reserve_product/:itemId`:
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x03-queuing_system_in_js`
-*   File: [9-stock.js]()
+*   File: [9-stock.js](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x03-queuing_system_in_js/9-stock.js)
 
 ### 13\. Can I have a seat?
 
@@ -980,7 +980,7 @@ and you can reserve all seats:
 
 *   GitHub repository: `holbertonschool-backend`
 *   Directory: `0x03-queuing_system_in_js`
-*   File: [100-seat.js]()
+*   File: [100-seat.js](https://github.com/Imanolasolo/holbertonschool-backend/blob/master/0x03-queuing_system_in_js/100-seat.js)
 
 ## Credits
 
